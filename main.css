@@ -38,7 +38,10 @@ h2 {
 }
 
 header {
+	margin: auto;
 	text-align: center;
+	width: max-content;
+	padding: 50px;
 }
 
 main { float: left;
@@ -64,20 +67,28 @@ p {
 }
 
 #footer-container {
-	
+	margin: auto;
+	text-align: center;
+	width: max-content;
+	padding: 50px;
+
 }
 
 #header-container {
 
 }
 
-#main-container {	position: relative;
-	top:10px
+#main-container 
 
-}
-
-nav { width: 20%;
+nav { width: 25%;
 	float: left;
 	font-size: 24px;
 
 }
+
+aside {width: 25%;
+	float: left;
+
+
+}
+
