@@ -40,16 +40,23 @@ h2 {
 header {
 	margin: auto;
 	text-align: center;
-	width: max-content;
-	padding: 50px;
+	width: max;
+	padding: 0px;
+	color: orange;
+	border: 2px solid;
+	border-color: orange;
 }
 
 main { float: left;
 	width: 50%;
 	height: 50%;
-	font-size: 24px;
+	font-size: 20px;
 	position: relative;
-	bottom:0px
+	bottom:0px;
+	border: 2px solid;
+	border-color: pink;
+
+	
 
 }
 
@@ -66,29 +73,60 @@ p {
 
 }
 
+
+
 #footer-container {
 	margin: auto;
-	text-align: center;
-	width: max-content;
-	padding: 50px;
+	color: rgb(7, 7, 240);
+
 
 }
 
-#header-container {
+#header-container h1{color: rgb(230, 133, 6);}
+
+main h2 {color: pink;}
+
+
+#main-container { 
+
 
 }
-
-#main-container 
 
 nav { width: 25%;
 	float: left;
-	font-size: 24px;
+	font-size: 18px;
+	border: 2px solid;
+	border-color: green;
+
+
+	
 
 }
 
-aside {width: 25%;
+aside {width: 24%;
 	float: left;
+	font-size: 18px;
+	border: 2px solid;
+	border-color: rgb(154, 6, 6);
 
+
+	
+
+
+}
+
+aside h2{color: rgb(154, 6, 6); }
+
+footer {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+	padding: 50px;
+	color: blue;
+	border: 2px solid;
+	border-color: blue;
+	float: inline-end;
+	font-size: 18px;
 
 }
 
