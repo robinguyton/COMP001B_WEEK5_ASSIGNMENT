@@ -38,21 +38,28 @@ h2 {
 }
 
 header {
+	/* Adding margin to header to separate from the other elements */
 	margin: auto;
+	/*Aligning text to center of page*/
 	text-align: center;
-	padding: 0px;
+	/*Changing color of text to orange*/
 	color: orange;
+	/*Setting a 2 pixel solid border*/
 	border: 2px solid;
+	/*Changing the border color to orange to match text*/
 	border-color: orange;
 }
 
-main { float: left;
+main { 
+	/*Aligning Main to the left of elements ahead of it*/
+	float: left;
+	/*Setting the width of the element to take up 50% of the overall page width*/
 	width: 50%;
-	height: 50%;
+	/*Setting the font size of the text to 20 pixels*/
 	font-size: 20px;
-	position: relative;
-	bottom:0px;
+	/*Setting a 2 pixel solid border*/
 	border: 2px solid;
+	/*Changing the border color to pink to match text*/
 	border-color: pink;
 
 	
@@ -75,15 +82,21 @@ p {
 
 
 #footer-container {
+	/*Setting the margin to auto to properly set spacing between other elements*/
 	margin: auto;
+	/*Changing color to blue to match assignment requirements*/
 	color: rgb(7, 7, 240);
 
 
 }
 
-#header-container h1{color: rgb(230, 133, 6);}
+#header-container h1{
+	/*Changing text color to orange to match assignment requirements*/
+	color: rgb(230, 133, 6);}
 
-main h2 {color: pink;}
+main h2 {
+	/*Changing text color to pink to match assignment requirements*/
+	color: pink;}
 
 
 #main-container { 
@@ -91,10 +104,16 @@ main h2 {color: pink;}
 
 }
 
-nav { width: 25%;
+nav { 
+	/*Setting the width of the element to take up 25% of the overall page width*/
+	width: 25%;
+	/*Aligning the nav element to the left of the elements ahead of it*/
 	float: left;
+	/*Setting the font size to 18 pixels*/
 	font-size: 18px;
+	/*Setting a 2 pixel solid border*/
 	border: 2px solid;
+	/*Changing the border color to green*/
 	border-color: green;
 
 
@@ -102,10 +121,16 @@ nav { width: 25%;
 
 }
 
-aside {width: 24%;
+aside {
+	/*Setting the width to take up 24% of the overall page width*/
+	width: 24%;
+	/*Alining the element to the left of the elements ahead of it*/
 	float: left;
+	/*Setting font size to 18 pixels*/
 	font-size: 18px;
+	/*Setting a 2 pixel solid border*/
 	border: 2px solid;
+	/*Changing the color of the border to match text*/
 	border-color: rgb(154, 6, 6);
 
 
@@ -114,18 +139,30 @@ aside {width: 24%;
 
 }
 
-aside h2{color: rgb(154, 6, 6); }
+aside h2{
+	/*Changing the color of the text to match border*/
+	color: rgb(154, 6, 6); }
 
 footer {
+	/*Setting the margin to auto to properly set spacing between other elements*/
 	margin: auto;
+	/*Setting the text to be aligned in the center*/
 	text-align: center;
+	/*Setting the width to take up all the page's available width*/
 	width: 100%;
+	/*Setting a 50 pixel padding inside the element*/
 	padding: 50px;
+	/*Setting the text color to blue to match the border*/
 	color: blue;
+	/*Setting a 2 pixel solid border*/
 	border: 2px solid;
+	/*Setting the border color to blue to match text*/
 	border-color: blue;
+	/*Aligns the footer to the bottom of the page*/
 	float: inline-end;
+	/*Setting the font size to 18 pixels*/
 	font-size: 18px;
+
 
 }
 
